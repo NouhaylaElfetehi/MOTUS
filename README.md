@@ -1,5 +1,4 @@
 # Motus Game
-# Project Name
 
 Short description of your project goes here.
 
