@@ -1,0 +1,11 @@
+/* styles.css */
+.horizontal-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  /* Optional: if you want to give some space between the buttons */
+  .horizontal-buttons button {
+    margin-right: 5px;
+  }
