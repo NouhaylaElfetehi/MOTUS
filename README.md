@@ -55,7 +55,7 @@ cd project-directory
 npm install
 \`\`\`
 # or
-\`\`\`bash
+\`\`\`
 yarn install
 \`\`\`
 
