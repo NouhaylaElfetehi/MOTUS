@@ -1,4 +1,4 @@
-const readmeTemplate = `
+const readmeTemplate = '
 # Project Name
 
 Short description of your project goes here.
@@ -100,6 +100,6 @@ Include information about the license under which your project is distributed.
 ## Contact
 
 Provide your contact information or links to your website or social media profiles.
-`;
+';
 
 console.log(readmeTemplate);
