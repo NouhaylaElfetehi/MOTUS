@@ -1,5 +1,4 @@
 # Motus Game
-const readmeTemplate = `
 # Project Name
 
 Short description of your project goes here.
