@@ -1,4 +1,5 @@
-# Motus Game
+const readmeTemplate = `
+# Project Name
 
 Short description of your project goes here.
 
@@ -42,11 +43,19 @@ Mention the technologies and major libraries/frameworks used in your project.
 
 ## Getting Started
 
-<!-- Provide instructions on how to set up and run the project on a local machine. -->
+Instructions on how to set up and run the project on a local machine.
 
 ## Installation
 
-<!-- Provide step-by-step installation instructions here. -->
+To install the project, follow these steps:
+
+\`\`\`bash
+git clone <repository_url>
+cd project-directory
+npm install
+# or
+yarn install
+\`\`\`
 
 ## Configuration
 
@@ -56,11 +65,11 @@ Mention the technologies and major libraries/frameworks used in your project.
 
 Explain how to run the application.
 
-\'\'\'bash
+\`\`\`bash
 npm start
 # or
 yarn start
-\'\'\'
+\`\`\`
 
 ## API Endpoints
 
