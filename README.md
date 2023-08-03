@@ -53,7 +53,9 @@ To install the project, follow these steps:
 git clone <repository_url>
 cd project-directory
 npm install
+\`\`\`
 # or
+\`\`\`bash
 yarn install
 \`\`\`
 
