@@ -1,5 +1,5 @@
-const readmeTemplate = '
-# Project Name
+
+# Motus Game
 
 Short description of your project goes here.
 
@@ -49,13 +49,13 @@ Instructions on how to set up and run the project on a local machine.
 
 To install the project, follow these steps:
 
-\`\`\`bash
+'''bash
 git clone <repository_url>
 cd project-directory
 npm install
 # or
 yarn install
-\`\`\`
+'''
 
 ## Configuration
 
