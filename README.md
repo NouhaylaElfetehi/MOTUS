@@ -56,11 +56,11 @@ Mention the technologies and major libraries/frameworks used in your project.
 
 Explain how to run the application.
 
-\`\`\`bash
+\'\'\'bash
 npm start
 # or
 yarn start
-\`\`\`
+\'\'\'
 
 ## API Endpoints
 
