@@ -40,7 +40,7 @@ The database configuration can be found in the backend/config/Database.js file. 
     dialect: "mysql"
 });
  ```
-- First parameter or 'DB' is the database name.
+- First parameter or `DB` is the database name.
 - second parameter or `USER` is the database user name.
 - third parameter or `PASSWORD` is the database password.
 - `HOST` is the database host name.
