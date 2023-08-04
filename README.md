@@ -1,107 +1,49 @@
+## Motus Game
+## README for Node.js and React project using MySQL
 
-# Motus Game
+This project is a Node.js backend with an React front-end, which uses MySQL as the database. Below are the steps to install and run the project.
 
-Short description of your project goes here.
+### Prerequisites
+- Node.js version 12.x or higher installed
+- React version 18.x or higher installed
+- MySQL installed and running on your machine
 
-## Table of Contents
+### Installation
+1. Clone this repository.
+2. Open the terminal and navigate to the project directory.
+3. For the backend, run the following command to install dependencies:
+    
+    npm install
+    
+4. For the frontend, navigate to the frontend directory and run the following command to install dependencies:
+    
+    npm install
+    
+5. Create a new MySQL database and update the configuration in backend/config/db.config.js file.
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Frontend](#frontend)
-- [Database](#database)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+### Running the project
+- To start the backend server, run the following command:
+    
+    nodemon index.js
+    
+- To start the frontend server, navigate to the frontend directory and run the following command:
+    
+    npm start
+    
+- Once both servers are running, open your browser and navigate to http://localhost:3000 to access the application.
 
-## Introduction
+### Database configuration
+The database configuration can be found in the backend/config/Database.js file. Update the file with your MySQL database credentials.
 
-A brief introduction to your project. Describe the problem it solves or the goal it aims to achieve.
+    const db = new Sequelize('auth_db', 'root', '', {
+    host: "localhost",
+    dialect: "mysql"
+});
+ 
+- First parameter or 'DB' is the database name.
+- second parameter or `USER` is the database user name.
+- third parameter or `PASSWORD` is the database password.
+- `HOST` is the database host name.
+- `dialect` is the type of SQL dialect used by the database (in this case, MySQL).
 
-## Features
-
-List the key features of your application here.
-
-- Feature 1
-- Feature 2
-- ...
-
-## Technologies
-
-Mention the technologies and major libraries/frameworks used in your project.
-
-- Node.js
-- React
-- MySQL
-- Express.js (or any other backend framework you are using)
-- ...
-
-## Getting Started
-
-Instructions on how to set up and run the project on a local machine.
-
-## Installation
-
-To install the project, follow these steps:
-
-\`\`\`bash
-git clone <repository_url>
-cd project-directory
-npm install
-\`\`\`
-# or
-\`\`\`
-yarn install
-\`\`\`
-
-## Configuration
-
-<!-- Describe any necessary configuration steps here. For example, setting up environment variables or database connections. -->
-
-## Usage
-
-Explain how to run the application.
-
-\`\`\`bash
-npm start
-# or
-yarn start
-\`\`\`
-
-## API Endpoints
-
-If your backend exposes API endpoints, list and document them here.
-
-- \`GET /api/some-endpoint\`: Description of what this endpoint does.
-- \`POST /api/another-endpoint\`: Description of what this endpoint does.
-
-## Frontend
-
-Provide information about the frontend part of your application.
-
-- Briefly explain the purpose of the frontend.
-- Mention any special setup or configuration needed for the frontend.
-
-## Database
-
-Explain the database structure and any important details about the database setup.
-
-## Contributing
-
-Explain how other developers can contribute to your project. Include guidelines for submitting issues and pull requests.
-
-## License
-
-Include information about the license under which your project is distributed.
-
-## Contact
-
-Provide your contact information or links to your website or social media profiles.
-';
-
-console.log(readmeTemplate);
+That's it! If you have any questions or issues, please feel free to contact us.
