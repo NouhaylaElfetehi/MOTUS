@@ -12,34 +12,34 @@ This project is a Node.js backend with an React front-end, which uses MySQL as t
 1. Clone this repository.
 2. Open the terminal and navigate to the project directory.
 3. For the backend, run the following command to install dependencies:
-    
+    ```
     npm install
-    
+    ```
 4. For the frontend, navigate to the frontend directory and run the following command to install dependencies:
-    
+    ```
     npm install
-    
+    ```
 5. Create a new MySQL database and update the configuration in backend/config/db.config.js file.
 
 ### Running the project
 - To start the backend server, run the following command:
-    
+    ```
     nodemon index.js
-    
+    ```
 - To start the frontend server, navigate to the frontend directory and run the following command:
-    
+    ```
     npm start
-    
+    ```
 - Once both servers are running, open your browser and navigate to http://localhost:3000 to access the application.
 
 ### Database configuration
 The database configuration can be found in the backend/config/Database.js file. Update the file with your MySQL database credentials.
-
+```
     const db = new Sequelize('auth_db', 'root', '', {
     host: "localhost",
     dialect: "mysql"
 });
- 
+ ```
 - First parameter or 'DB' is the database name.
 - second parameter or `USER` is the database user name.
 - third parameter or `PASSWORD` is the database password.
